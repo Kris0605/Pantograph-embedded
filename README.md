@@ -16,7 +16,7 @@ A `main.c` tartalmazza a kezdeti konfigurációt, definiálja a használt interr
 
 ### Mechanikai szimuláció
 
-A `mechanics.h` és a `mechanics.c` fájlok tartalmazzák a mechanikai szimulációhoz szükséges változókat, segédváltozókat, illetve függvényeket. Kitüntetett szerepet kap a `mechanics` és a `spinner_mechanics` struktúra, mely a virtuális térben mozgó objektumok mechanikai tulajdonságait, illetve állapotváltozóinak aktuális értékeit tárolja. Jelenleg az end-effectorhoz, és a virtuális golyóhoz tartozik egy-egy `mechanics` struktúra-objektum, illetve a forgó tárgakhoz a `spinner_mechanics` struktúra-objektum.
+A `mechanics.h` és a `mechanics.c` fájlok tartalmazzák a mechanikai szimulációhoz szükséges változókat, segédváltozókat, illetve függvényeket. Kitüntetett szerepet kap a `mechanics` és a `spinner_mechanics` struktúra, mely a virtuális térben mozgó objektumok mechanikai tulajdonságait, illetve állapotváltozóinak aktuális értékeit tárolja. Jelenleg az end-effectorhoz, és a virtuális golyóhoz tartozik egy-egy `mechanics` struktúra-objektum, illetve a forgó tárgyakhoz a `spinner_mechanics` struktúra-objektum.
 
 ### Soros kommunikáció
 
